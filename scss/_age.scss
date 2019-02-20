@@ -1,0 +1,24 @@
+.age{
+    margin: 0 auto;
+    background-color: $blue;
+    text-align: center;
+    color: $white;
+    height: 500px;
+}
+.age__text{
+    margin: 0 auto;
+
+}
+.age__text h2{
+    padding-top:  80px;
+    font-size: 48px;
+}
+.age__text p{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+.age img{
+    height: 220px;
+    width: 80%;
+}

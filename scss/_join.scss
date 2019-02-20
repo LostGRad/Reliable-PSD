@@ -1,0 +1,47 @@
+.mw-50{
+    min-width: 50%;
+    height: 440px;
+}
+.wrapper{
+    width: $width-100;
+    margin: 0 auto;
+
+}
+.join{
+    height: 440px;
+    color: $white;
+    background-color: #367ab7;
+
+}
+.join__team{
+
+    display: flex;
+}
+.join__right{
+
+    text-align: left;
+    padding-left: 40px;
+}
+.join__right p{
+    font-size: 18px;
+}
+.join__right h2{
+    font-size: 48px;
+}
+.join__right button{
+    color: $white;
+    font-size: 20pt;
+    background-color: $blue;
+    border: none;
+    padding: 23px 66px 23px 66px;
+    margin-bottom: 4%;
+    margin-top: 50px;
+}
+.join__right button:hover{
+    box-shadow: 0px 10px 5px 0px #008ea5;
+}
+.join__right .line{
+    left: 26%;
+    margin: 20px;
+    width: 120px;
+}

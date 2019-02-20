@@ -1,0 +1,31 @@
+.slider {
+	width: $width-100;
+	height: 600px;
+    background: url(../img/Layer-21.png) center center no-repeat;
+     @include background-cover;
+    padding-top: 50px;
+    margin-bottom: 100px;
+
+
+}
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 750px;
+    height: 500px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+#slideshow img{
+    width: 750px;
+    height: 500px;
+
+}
